@@ -131,7 +131,7 @@ function Categories({swal}) {
                      value={property.name}
                      className="mb-0"
                      onChange={ev => handlePropertyNameChange(index,property,ev.target.value)}
-                     placeholder="property name (example: color)"/>
+                     placeholder="property initial (for example: c)"/>
               <input type="text"
                      className="mb-0"
                      onChange={ev =>
